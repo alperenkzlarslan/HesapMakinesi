@@ -26,5 +26,14 @@ namespace HesapMakinesi
 
             resultBox.Text = result.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Form2 _form2 = new Form2();
+            _form2.Show();  
+
+        }
     }
 }
